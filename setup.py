@@ -59,8 +59,11 @@ setup(
     zip_safe=True,
     test_suite="tests",
     install_requires=(
-        'ltsv', 'testfixtures',
+        'ltsv',
     ),
+    tests_require=(
+        'testfixtures',
+    )
     entry_points="""
 """,
 )
